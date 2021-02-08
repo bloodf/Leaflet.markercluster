@@ -31,10 +31,10 @@ export default {
 	input: 'src/index.js',
 	output: {
 		banner,
-		file: 'dist/leaflet.markercluster-src.js',
+		file: 'dist/leaflet.markerclusterv2-src.js',
 		format: 'umd',
-		legacy: true, // Needed to create files loadable by IE8
-		name: 'Leaflet.markercluster',
+		legacy: false, // Needed to create files loadable by IE8
+		name: 'leaflet.markerclusterv2',
 		sourcemap: true,
 	},
 	plugins: [
