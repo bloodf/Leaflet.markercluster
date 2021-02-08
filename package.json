@@ -1,7 +1,7 @@
 {
 	"name": "leaflet.markerclusterv2",
 	"repository": "https://github.com/bloodf/Leaflet.markerclusterv2",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Forked plugin with applied PRs - Provides Beautiful Animated Marker Clustering functionality for Leaflet",
 	"devDependencies": {
 		"git-rev-sync": "^1.8.0",
@@ -29,6 +29,7 @@
 	},
 	"main": "dist/leaflet.markerclusterv2-src.js",
 	"style": "dist/markerclusterv2.css",
+	"types": "dist/types.d.ts",
 	"scripts": {
 		"test": "karma start ./spec/karma.conf.js",
 		"prepublish": "jake",
